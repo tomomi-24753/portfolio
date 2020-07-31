@@ -149,6 +149,7 @@ code {
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px;
+    line-height: 29px;
 }
 
 .conversionbtn {
@@ -250,6 +251,15 @@ code {
     border-bottom: 4px solid #ebb94d;
     border-right: 4px solid #ebb94d;
     position: absolute;
+}
+
+.contents {
+    padding: 40px;
+}
+
+.contents p {
+    margin-bottom: 2.4rem;
+    font-weight: 300;
 }
 
 h2,h3 {
