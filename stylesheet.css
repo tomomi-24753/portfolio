@@ -390,7 +390,6 @@ p {
     padding: 30px 30px 20px;
     background-color: #fff;
     border-radius: 5px;
-    width: 32%;
 }
 
 .step {
@@ -533,6 +532,10 @@ border-radius: 50%;
     font-weight: 300;
 }
 
+.fa-drivers-license-o:before, .fa-id-card-o:before {
+    content: "\f2c3";
+}
+
 .txtleft {
     text-align: left;
 }
@@ -573,31 +576,31 @@ border-radius: 50%;
     box-sizing: border-box;
 }
 
-.whitebrackets::before {
+/* .whitebrackets::before {
     content: "";
     top: 0;
     left: 0;
     border-top: 4px solid #fff;
     border-left: 4px solid #fff;
     position: absolute;
-}
+} */
 
-.whitebrackets::before .whitebrackets::after {
+/* .whitebrackets::before .whitebrackets::after {
     position: absolute;
     content: "";
     width: 50px;
     height: 50px;
     box-sizing: border-box;
-}
+} */
 
-.whitebrackets::after {
+/* .whitebrackets::after {
     content: "";
     bottom: 0;
     right: 0;
     border-bottom: 4px solid #fff;
     border-right: 4px solid #fff;
     position: absolute;
-}
+} */
 
 .answer {
     padding: 40px 0;
@@ -612,9 +615,11 @@ border-radius: 50%;
     color: #777;
 }
 
+
 .answer img {
     border: solid;
     border-color: ebb94d;
+    margin: 20px 0;
 }
 
 .img-responsive {
@@ -684,7 +689,7 @@ border-radius: 50%;
     margin: 0;
 }
 
-.ul {
+ul {
     list-style: none;
 }
 
